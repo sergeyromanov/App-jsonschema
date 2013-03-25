@@ -23,29 +23,8 @@ sub usage {
 
 jsonschema.pl schema.json file1.json [file2.json ...]
 
-=head1 COMMANDS
-
-=over 4
-
-
-=back
-
-=head1 OPTIONS
-
-=over 4
-
-=back
-
 =head1 SEE ALSO
 
-L<App::jsonschema>
-
-=head1 COPYRIGHT
-
-Copyright 2013 Andre Santos.
-
-=head1 AUTHOR
-
-Andre Santos <andrefs@cpan.org>
+L<App::jsonschema>, L<JSON>, L<JSON::Schema>
 
 =cut

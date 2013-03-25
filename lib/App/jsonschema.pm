@@ -11,6 +11,19 @@ use Data::Dump qw/dump/;
 
 # ABSTRACT: Command-line utility to validate JSON using JSON Schema
 
+=pod
+
+=head1 DESCRIPTION
+
+jsonschema.pl is a script to validate JSON documents agains a JSON
+Schema. It is a simple command-line wrapper around L<JSON::Schema>.
+
+=head1 SEE ALSO
+
+L<JSON>, L<JSON::Schema>
+
+=cut 
+
 has schema_file => ( 
 	is 			=> 'rw', 
 	required 	=> 1,
