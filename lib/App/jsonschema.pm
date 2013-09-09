@@ -54,6 +54,13 @@ sub _build_schema {
 	return $schema;
 }
 
+
+=head2 validate
+
+    Validates a set of JSON files passed as argument.
+
+=cut
+
 sub validate {
 	my ($self,@files) = @_;
 	my $result;
