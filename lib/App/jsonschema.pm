@@ -18,6 +18,11 @@ use Data::Dump qw/dump/;
 jsonschema.pl is a script to validate JSON documents agains a JSON
 Schema. It is a simple command-line wrapper around L<JSON::Schema>.
 
+=head1 SYNOPSIS
+
+    jsonschema.pl schema.json file1.json [file2.json ...]
+
+
 =head1 SEE ALSO
 
 L<JSON>, L<JSON::Schema>
